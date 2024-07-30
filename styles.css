@@ -36,16 +36,16 @@
 
 .hero{
     display: flex;
-    margin-top: 20px;
+    margin-top: 110px;
     flex-direction: column;
     align-items: center;
 }
 
 .hero .main-picture {
-    /* width: 80%; */
+    width: 90%;
     margin-bottom: 20px;
     border-radius: 20px;
-    max-height: 500px;
+    /* max-height: 500px; */
 }
 
 .hero .sub-pictures {
@@ -55,6 +55,6 @@
 }
 
 .hero .sub-pictures img {
-    width: 22%;
+    width: 30%;
     border-radius: 20px;
 }
