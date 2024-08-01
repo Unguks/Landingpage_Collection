@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
 .head{
     display: flex;
     justify-content: center;
@@ -14,8 +22,10 @@
 
 .head p {
     max-width: 689px;
+    opacity: 80%;
     /* max-height: 99px; */
     font-size: 24px;
+    color: #252525;
     margin-bottom: 24px;
 }
 
