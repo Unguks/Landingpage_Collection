@@ -4,30 +4,35 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins';
 }
 
 .head h1 {
-    font-size: 55px;
-    margin-bottom: 20px;
+    font-size: 56px;
+    margin-bottom: 24px;
 }
 
 .head p {
-    max-width: 600px;
+    max-width: 689px;
+    /* max-height: 99px; */
+    font-size: 24px;
+    margin-bottom: 24px;
 }
 
 .head button {
     color: white;
     background-color: black;
-    border-radius: 30px;
+    border-radius: 36px;
     border: none;
     cursor: pointer;
-    padding: 15px 35px; 
+    width: 182px;
+    height: 66px;
 }
 
 .head button a {
     color: white;
     text-decoration: none;
+    font-size: 24px;
 }
 
 .head button:hover{
