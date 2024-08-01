@@ -49,6 +49,35 @@ body {
     background-color: brown;
 }
 
+nav {
+    position: fixed; 
+    top: 400px; 
+    left: 50%;
+    width: 1048px;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    border-radius: 48px;
+}
+nav div {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+nav h1 {
+    font-size: 1.2em;
+    margin: 0;
+}
+nav hr {
+    margin: 5px 0;
+}
+nav p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
 .hero{
     display: flex;
     margin-top: 110px;
@@ -73,3 +102,4 @@ body {
     width: 30%;
     border-radius: 20px;
 }
+
