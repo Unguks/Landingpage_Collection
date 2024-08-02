@@ -86,7 +86,7 @@ nav p {
 }
 
 .hero .main-picture {
-    width: 90%;
+    width: 1312px;
     margin-bottom: 20px;
     border-radius: 20px;
     /* max-height: 500px; */
@@ -95,11 +95,12 @@ nav p {
 .hero .sub-pictures {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 40px;
+    
 }
 
 .hero .sub-pictures img {
-    width: 30%;
-    border-radius: 20px;
+    width: 411px;
+    border-radius: 32px;
 }
 
