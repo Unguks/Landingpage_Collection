@@ -51,31 +51,53 @@ body {
 
 nav {
     position: fixed; 
+    display: flex;
     top: 400px; 
     left: 50%;
     width: 1048px;
+    height: 191px;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.9); 
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
     z-index: 1000; 
     border-radius: 48px;
+    padding-top: 40px;
+    padding-left: 64px;
+    padding-right: 64px;
+    gap: 70px;
 }
+
 nav div {
     display: inline-block;
     margin: 0 10px;
+    width: 176px;
     text-align: center;
 }
+
 nav h1 {
     font-size: 1.2em;
     margin: 0;
+    font-size: 24px;
+    text-align: left;
 }
+
 nav hr {
     margin: 5px 0;
+    width: 66px;
+    height: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: #252525;
 }
+
 nav p {
-    margin: 0;
-    font-size: 0.9em;
+    margin: 0; 
+    font-size: 18px;
+    text-align: left;
+    color: #252525;
+    opacity: 70%;
+    width: 176;
 }
 
 .hero{
