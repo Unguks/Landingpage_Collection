@@ -126,3 +126,82 @@ nav p {
     border-radius: 32px;
 }
 
+@media (max-width: 768px) {
+    .head h1 {
+        font-size: 36px;
+    }
+
+    .head p {
+        font-size: 18px;
+    }
+
+    .head button {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        top: auto;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    nav div {
+        width: 100%;
+        text-align: left;
+    }
+
+    /* Burger menu */
+    .burger-menu {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: black;
+        padding: 10px;
+        border-radius: 50%;
+        z-index: 1100;
+        cursor: pointer;
+    }
+
+    .burger-menu div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    .head h1 {
+        font-size: 28px;
+    }
+
+    .head p {
+        font-size: 16px;
+    }
+
+    .hero .sub-pictures {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero .sub-pictures img {
+        max-width: 100%;
+    }
+}
