@@ -1,0 +1,53 @@
+/* Styles for PC (desktop) screens */
+.responsive-box {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-box h2 {
+    font-size: 2rem;
+}
+
+.responsive-box p {
+    font-size: 1.2rem;
+}
+
+/* Responsive styles for phone (mobile) screens */
+@media (max-width: 768px) {
+    .responsive-box {
+        display: none; /* Hide the box by default on mobile */
+        width: 90%;
+        padding: 15px;
+        background-color: #2196F3; /* Blue background */
+        color: white;
+        margin: 20px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .responsive-box.active {
+        display: block; /* Show the box when the burger menu is clicked */
+    }
+
+    /* Styles for the burger menu */
+    .burger-menu {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        z-index: 10000;
+        cursor: pointer;
+    }
+}

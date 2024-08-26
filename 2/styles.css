@@ -141,24 +141,6 @@ nav p {
         font-size: 20px;
     }
 
-    nav {
-        flex-direction: column;
-        top: auto;
-        bottom: 20px;
-        left: 20px;
-        right: 20px;
-        width: auto;
-        height: auto;
-        padding: 20px;
-        gap: 20px;
-    }
-
-    nav div {
-        width: 100%;
-        text-align: left;
-    }
-
-    /* Burger menu */
     .burger-menu {
         display: block;
         position: fixed;
@@ -180,7 +162,26 @@ nav p {
 
     nav {
         display: none;
+        width: 90%;
     }
+
+    nav div {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+        width: 5%;
+        text-align: center;
+    }
+
+    nav p {
+        margin: 0; 
+        font-size: 12px;
+        text-align: left;
+        color: #252525;
+        opacity: 70%;
+        width: 176;
+    }
+
 
     nav.active {
         display: flex;
@@ -208,7 +209,7 @@ nav p {
     }
     
     .hero .sub-pictures img {
-        width: 31.5%;
+        width: 29.5%;
         border-radius: 32px;
     }
     
@@ -224,7 +225,7 @@ nav p {
     }
 
     .hero .sub-pictures {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
     }
 
